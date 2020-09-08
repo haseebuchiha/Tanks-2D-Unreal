@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Tanks.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{E47300D2-A7E9-42CB-AB39-51C82382AB1E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Tanks.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TanksEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{4D2CBF44-9657-4B86-A02A-4538F1C7ACD1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Tanks">
+      <UniqueIdentifier>{97CAFA38-1CFA-4505-AEF4-3163CE5A4C77}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Tanks\DamageInterface.cpp">
+      <Filter>Source\Tanks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tanks\DamageInterface.h">
+      <Filter>Source\Tanks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tanks\Missle.cpp">
+      <Filter>Source\Tanks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tanks\Missle.h">
+      <Filter>Source\Tanks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tanks\Spawner.cpp">
+      <Filter>Source\Tanks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tanks\Spawner.h">
+      <Filter>Source\Tanks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tanks\TankGameMode.cpp">
+      <Filter>Source\Tanks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tanks\TankGameMode.h">
+      <Filter>Source\Tanks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tanks\TankPawn.cpp">
+      <Filter>Source\Tanks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tanks\TankPawn.h">
+      <Filter>Source\Tanks</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Tanks\Tanks.Build.cs">
+      <Filter>Source\Tanks</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Tanks\Tanks.cpp">
+      <Filter>Source\Tanks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tanks\Tanks.h">
+      <Filter>Source\Tanks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tanks\TanksGameModeBase.cpp">
+      <Filter>Source\Tanks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tanks\TanksGameModeBase.h">
+      <Filter>Source\Tanks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tanks\TankStatics.cpp">
+      <Filter>Source\Tanks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tanks\TankStatics.h">
+      <Filter>Source\Tanks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tanks\Turret.cpp">
+      <Filter>Source\Tanks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tanks\Turret.h">
+      <Filter>Source\Tanks</Filter>
+    </ClInclude>
+    <Filter Include="Source\Tanks\Enemies">
+      <UniqueIdentifier>{89607A92-6AB9-48F1-A318-5D22350B62D0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Tanks\Enemies\ZombieBrains.cpp">
+      <Filter>Source\Tanks\Enemies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tanks\Enemies\ZombieBrains.h">
+      <Filter>Source\Tanks\Enemies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tanks\Enemies\Zombies.cpp">
+      <Filter>Source\Tanks\Enemies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tanks\Enemies\Zombies.h">
+      <Filter>Source\Tanks\Enemies</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

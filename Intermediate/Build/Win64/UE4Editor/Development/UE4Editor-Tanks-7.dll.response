@@ -1,0 +1,85 @@
+/MANIFEST:NO
+/NOLOGO
+/DEBUG
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/FIXED:No
+/NXCOMPAT
+/STACK:5000000
+/DELAY:UNLOAD
+/DLL
+/PDBALTPATH:%_PDB%
+/OPT:NOREF
+/OPT:NOICF
+/INCREMENTAL:NO
+/ignore:4199
+/ignore:4099
+/DELAYLOAD:"d3d12.dll"
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+"C:\Program Files\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\UE\Tanks\Intermediate\Build\Win64\UE4Editor\Development\Tanks\DamageInterface.cpp.obj"
+"D:\UE\Tanks\Intermediate\Build\Win64\UE4Editor\Development\Tanks\Missle.cpp.obj"
+"D:\UE\Tanks\Intermediate\Build\Win64\UE4Editor\Development\Tanks\TankGameMode.cpp.obj"
+"D:\UE\Tanks\Intermediate\Build\Win64\UE4Editor\Development\Tanks\TankPawn.cpp.obj"
+"D:\UE\Tanks\Intermediate\Build\Win64\UE4Editor\Development\Tanks\Tanks.cpp.obj"
+"D:\UE\Tanks\Intermediate\Build\Win64\UE4Editor\Development\Tanks\TanksGameModeBase.cpp.obj"
+"D:\UE\Tanks\Intermediate\Build\Win64\UE4Editor\Development\Tanks\TankStatics.cpp.obj"
+"D:\UE\Tanks\Intermediate\Build\Win64\UE4Editor\Development\Tanks\Turret.cpp.obj"
+"D:\UE\Tanks\Intermediate\Build\Win64\UE4Editor\Development\Tanks\ZombieBrains.cpp.obj"
+"D:\UE\Tanks\Intermediate\Build\Win64\UE4Editor\Development\Tanks\Zombies.cpp.obj"
+"D:\UE\Tanks\Intermediate\Build\Win64\UE4Editor\Development\Tanks\DamageInterface.gen.cpp.obj"
+"D:\UE\Tanks\Intermediate\Build\Win64\UE4Editor\Development\Tanks\Missle.gen.cpp.obj"
+"D:\UE\Tanks\Intermediate\Build\Win64\UE4Editor\Development\Tanks\TankGameMode.gen.cpp.obj"
+"D:\UE\Tanks\Intermediate\Build\Win64\UE4Editor\Development\Tanks\TankPawn.gen.cpp.obj"
+"D:\UE\Tanks\Intermediate\Build\Win64\UE4Editor\Development\Tanks\Tanks.init.gen.cpp.obj"
+"D:\UE\Tanks\Intermediate\Build\Win64\UE4Editor\Development\Tanks\TanksGameModeBase.gen.cpp.obj"
+"D:\UE\Tanks\Intermediate\Build\Win64\UE4Editor\Development\Tanks\TankStatics.gen.cpp.obj"
+"D:\UE\Tanks\Intermediate\Build\Win64\UE4Editor\Development\Tanks\Turret.gen.cpp.obj"
+"D:\UE\Tanks\Intermediate\Build\Win64\UE4Editor\Development\Tanks\ZombieBrains.gen.cpp.obj"
+"D:\UE\Tanks\Intermediate\Build\Win64\UE4Editor\Development\Tanks\Zombies.gen.cpp.obj"
+"C:\Program Files\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Tanks\PCLaunch.rc.res"
+"C:\Program Files\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+"delayimp.lib"
+"wininet.lib"
+"rpcrt4.lib"
+"ws2_32.lib"
+"dbghelp.lib"
+"comctl32.lib"
+"Winmm.lib"
+"kernel32.lib"
+"user32.lib"
+"gdi32.lib"
+"winspool.lib"
+"comdlg32.lib"
+"advapi32.lib"
+"shell32.lib"
+"ole32.lib"
+"oleaut32.lib"
+"uuid.lib"
+"odbc32.lib"
+"odbccp32.lib"
+"netapi32.lib"
+"iphlpapi.lib"
+"setupapi.lib"
+"dwmapi.lib"
+"imm32.lib"
+"C:\Program Files\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Engine.lib"
+"C:\Program Files\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AIModule.lib"
+"C:\Program Files\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Core.lib"
+"C:\Program Files\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoreUObject.lib"
+"C:\Program Files\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputCore.lib"
+"C:\Program Files\UE_4.19\Engine\Plugins\2D\Paper2D\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Paper2D.lib"
+/OUT:"D:\UE\Tanks\Binaries\Win64\UE4Editor-Tanks-7.dll"
+/IMPLIB:"D:\UE\Tanks\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Tanks-7.suppressed.lib"
+/PDB:"D:\UE\Tanks\Binaries\Win64\UE4Editor-Tanks-7.pdb"
+/ignore:4078
